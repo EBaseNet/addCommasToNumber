@@ -30,7 +30,7 @@
    git commit -m "[제출자]"
    git push origin BRANCH_NAME
    ```
-5. Github에 push 이후 PR을 올려주세요.
+5. Github에 push 이후 PR(Pull Request)을 올려주세요.
 
 ## 제출 파일 구성
 
