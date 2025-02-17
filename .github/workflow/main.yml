@@ -18,11 +18,11 @@ jobs:
         with:
           node-version: 20.x
 
-      - name: yarn install
-        run: yarn install
+      - name: pnpm install
+        run: pnpm install
 
       - name: run test code
-        run: yarn test
+        run: pnpm test
       # 테스트 코드 실패 시 동작
       - name: if fail
         uses: actions/github-script@v7
